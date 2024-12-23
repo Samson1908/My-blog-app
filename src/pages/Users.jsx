@@ -68,7 +68,7 @@ const Users = () => {
               <tr key={user._id} className="hover:bg-gray-50">
                 <td className="border border-gray-300 p-2 text-center">{index + 1}</td>
                 <td className="border border-gray-300 p-2">
-                  <Link to={`/users/${user._id}`} className="text-blue-500 hover:underline">
+                  <Link to={`/users/${user._id}`} className="text-green-500 hover:underline">
                     {user.name}
                   </Link>
                 </td>
